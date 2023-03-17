@@ -38,4 +38,30 @@
 //   f := "apple"
 //   fmt.Println(f)
 // }
-// this were the variable that are in the go
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+const s string = "Constant"
+
+func main (){
+	fmt.Println(s)
+	
+	const a = 500000
+
+	const n = 5000000
+
+	fmt.Print(a)
+
+	const c = 3e20/n 
+
+	fmt.Println(c)
+
+	fmt.Println(int64(c))
+
+	fmt.Println(math.Sin(n))
+}
